@@ -13,7 +13,7 @@ html, body{
 
 }
 body{
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
     background-color: #1A0B2E;
     line-height: 1.6;
@@ -23,7 +23,7 @@ body{
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 15px auto;
     border: 1px solid #ccc;
 }
 a{
@@ -53,15 +53,15 @@ nav .menu{
 nav .menu a{
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
-    padding: 10px;
+    margin: 0 5px;
+    padding: 10px 30px;
 }
 nav .menu a:hover{
     background-color: #fff;
     color: #412567;
     border-radius: 5px;
 }
-.cta-btn{
+.cta_btn{
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -71,9 +71,18 @@ nav .menu a:hover{
     border-radius: 30px;
 }
 
-.cta-btn:hover{
+.cta_btn:hover{
     background-color: #fff;
-    color: linear-gradient(to left bottom,#9100F8,#FB09B4 ,#F7E93F);
+    color: #333;
+}
+.cta_btn_2{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #00FF88;
+    border: 2px solid #00FF88;
+    padding: 10px 20px;
+    border-radius: 30px;
 }
 hr{
     margin: 20px 0;
@@ -85,20 +94,63 @@ hr{
 /*---HERO SECTION STYLES---*/
 .hero_section{
     background-image: url(../images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    text-align: center;
+}
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hero_image_container{
+    background: url(../images/hero-circle.png) no-repeat center center;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
-    text-align: center;
 }
-
-
-
-
-
-
-
-
+.hero_section h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+}
+.hero_section p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.hero_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.hero_buttons a{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.hero_buttons a p{
+    margin: 0;
+    color: #00FF88;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    color: #666;
+    font-size: 14px;
+}
 
 
 
