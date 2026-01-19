@@ -19,10 +19,11 @@ nav{
 .hero_image_container{
     width: 150px;
     height: 150px;
+    margin: 0 auto;
 }
 .hero_section{
-    padding: 0;
-    background-position: top center;
+    padding: 50px 0;
+    background-position: top 50px center;
 }
 
 .hero_section p{
@@ -32,10 +33,20 @@ nav{
     font-size: 48px;
 }
 .hero_buttons{
-    flex-direction: column;
-    gap: 10px;
-    padding: 0 20px;
+    gap: 7px;
+    padding: 0 10px;
 }
+.hero_buttons a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px;
+    gap: 5px;
+}
+
+
+
 
 /*---ABOUT SECTION STYLES---*/
 .card_container{
@@ -46,4 +57,11 @@ nav{
 
 
 
+/*---WHY CHOOSE SECTION STYLES---*/
 
+.why_choose_points{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
