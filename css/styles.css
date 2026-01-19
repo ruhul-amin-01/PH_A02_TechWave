@@ -1,5 +1,147 @@
+/*-----Imported GOOGLE FONTS---------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*---SHARED STYLES---*/
+html, body{
+    font-family: "Inter", sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+body{
+    width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    line-height: 1.6;
+    font-size: 18px;
+    border: 1px solid #111;
+}  
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+a{
+    text-decoration: none;
+}
+
+/*---NAVIGATION STYLES---*/
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+}
+#Wave{
+    background-image: linear-gradient(to left bottom,#9100F8,#FB09B4 ,#F7E93F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav .menu{
+    display: flex;
+}
+nav .menu a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+}
+nav .menu a:hover{
+    background-color: #fff;
+    color: #412567;
+    border-radius: 5px;
+}
+.cta-btn{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to left bottom,#9100F8,#FB09B4 ,#F7E93F);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.cta-btn:hover{
+    background-color: #fff;
+    color: linear-gradient(to left bottom,#9100F8,#FB09B4 ,#F7E93F);
+}
+hr{
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #412567;
+}
+
+
+/*---HERO SECTION STYLES---*/
+.hero_section{
+    background-image: url(../images/hero-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--- IGNORE ---
