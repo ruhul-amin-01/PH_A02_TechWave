@@ -1,3 +1,8 @@
+nav{
+    justify-content: space-around;
+}
+
+
 
 nav .menu{
     display: none;
@@ -10,7 +15,7 @@ nav .menu{
 }
 .hero_section{
     padding: 0;
-    padding-top: 75px;
+    background-position: top center;
 }
 .hero_content{
     padding: 20px 0 0 0;
@@ -20,4 +25,25 @@ nav .menu{
     height: 250px;
     background-position: top center;
     margin-top: 100px;
+}
+
+
+/*---ABOUT SECTION STYLES---*/
+
+.about_section{
+    margin: 50px auto;
+}
+.about_content{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 10px  0 10px;
+}
+.about_content h2{
+    font-size: 36px;
+}
+.card_container{
+    gap: 15px;
+}
+.card h2{
+    font-size: 36px;
 }

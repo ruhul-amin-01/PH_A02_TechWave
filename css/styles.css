@@ -16,14 +16,13 @@ body{
     max-width: 1600px;
     margin: 0 auto;
     background-color: #1A0B2E;
-    line-height: 1.6;
     font-size: 18px;
-    border: 1px solid #111;
+    border: 1px solid #d51c1c;
 }  
 
 .container{
     max-width: 1200px;
-    margin: 15px auto;
+    margin: 0 auto 30px auto;
     border: 1px solid #ccc;
 }
 a{
@@ -32,10 +31,11 @@ a{
 
 /*---NAVIGATION STYLES---*/
 nav{
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 30px;
+    margin: 0 auto;
 }
 .logo{
     font-size: 60px;
@@ -154,6 +154,50 @@ hr{
     margin: 0;
     color: #00FF88;
 }
+/*---ABOUT SECTION STYLES---*/
+
+.about_section{
+    color: #f9f6f6;
+    text-align: center;
+    margin: 100px auto;
+}
+.about_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px  0 20px;
+}
+.about_content h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.about_content p{
+    font-size: 16px;
+    color: #cdcdcd;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 50px auto;
+}
+.card{
+    text-align: center;
+}
+.card h2{
+    font-size: 48px;
+    color: #00FF88;
+    margin-bottom: 10px;
+}
+
+
+/*---FOOTER STYLES---*/
 footer{
     text-align: center;
     padding: 20px 0;
