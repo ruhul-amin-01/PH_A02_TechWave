@@ -1,3 +1,23 @@
-body{
 
+nav .menu{
+    display: none;
+}
+.subscribe_button{
+    display: none;
+}
+.hamburger_menu{
+    display: flex;
+}
+.hero_section{
+    padding: 0;
+    padding-top: 75px;
+}
+.hero_content{
+    padding: 20px 0 0 0;
+}
+.hero_image_container{
+    width: 250px;
+    height: 250px;
+    background-position: top center;
+    margin-top: 100px;
 }
