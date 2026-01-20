@@ -65,3 +65,26 @@ nav{
     gap: 10px;
     margin-top: 50px;
 }
+
+
+/*--------HOST SECTION STYLES-------*/
+
+.host_content{
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.host_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.host_section h2{
+    font-size: 32px;
+}
+
+.host_content p{
+    text-align: center;
+}

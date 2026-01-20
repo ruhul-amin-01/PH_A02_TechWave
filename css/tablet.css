@@ -80,3 +80,25 @@ nav .menu{
     grid-column: 2 / 3;
     grid-row: 3 / 4 ;
 }
+
+/*------------EPISODE SECTION STYLE-------*/
+
+.episode_section{
+    padding: 30px 10px;
+}
+
+.episode_section h2{
+    padding-bottom: 30px;
+    font-size: 32px;
+}
+
+.videos_container{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/*--------HOST SECTION STYLES-------*/
+.host_section h2{
+    font-size: 40px;
+}

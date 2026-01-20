@@ -263,6 +263,114 @@ nav .menu a:hover{
     grid-column: 3 / 4;
     grid-row: 3 / 4 ;
 }
+
+/*--------EPISODES SECTION STYLE-------*/
+.episode_section{
+    padding: 80px 10px;
+}
+.episode_section h2{
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+}
+
+.videos_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.video_card{
+    text-align: left;
+    background-color: #250D44;
+    border-radius: 10px;
+    max-width: 420px;
+}
+.video_card iframe{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: auto;
+}
+.video_info{
+    padding: 20px;
+}
+.video_info h2{
+    font-size: 24px;
+    text-align: left;
+    padding: 0;
+}
+.video_info p{
+    color: #AA9FB8;
+    margin: 15px 0;
+    font-size: 16px;
+}
+.duration{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+}
+.video_info img{
+    margin-right: 10px;
+}
+
+
+
+/*--------HOST SECTION STYLES-------*/
+.host_section{
+padding: 50px 10px;
+}
+
+.host_section h2{
+    padding:30px;
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+}
+.host_content{
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    align-items: center;
+    background-color: #250D44;
+    border-radius: 8px;
+}
+.host_content h3{
+    color: #fff;
+}
+
+.host_content p{
+    color: #AA9FB8;
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.host_social{
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    align-items: center;
+}
+
+.host_social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #8d53d0;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
 /*---FOOTER STYLES---*/
 footer{
     text-align: center;
