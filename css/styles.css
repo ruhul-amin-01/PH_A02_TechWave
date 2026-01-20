@@ -81,6 +81,9 @@ nav .menu a:hover{
     background-color: #fff;
     color: #333;
 }
+.subscribe_button img {
+    width: 18px;
+}
 .cta_btn_2{
     font-size: 20px;
     font-weight: 600;
