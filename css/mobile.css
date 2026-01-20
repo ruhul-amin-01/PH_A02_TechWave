@@ -88,3 +88,19 @@ nav{
 .host_content p{
     text-align: center;
 }
+/*--------FOOTER---------*/
+.logo_footer{
+    font-size: 32px;
+}
+footer{
+    background-size: cover;
+    padding: 20px 8px;
+}
+
+.footer_social{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+

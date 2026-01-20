@@ -41,7 +41,7 @@ nav{
     color: #fff;
     font-weight: 900;
 }
-#Wave{
+.wave{
     background-image: linear-gradient(to left bottom,#9100F8,#FB09B4 ,#F7E93F);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -199,6 +199,10 @@ nav .menu a:hover{
     padding: 50px 0;
     text-align: center;
     color: #f9f6f6;
+}
+
+.why_choose_section h2{
+    margin-top: 30px;
 }
 .why_choose_content{
     margin: 0 auto;
@@ -373,10 +377,45 @@ padding: 50px 10px;
 
 /*---FOOTER STYLES---*/
 footer{
+    background: url(../images/footer-bg.png);
     text-align: center;
-    padding: 20px 0;
+    padding: 50px 0;
     color: #666;
     font-size: 14px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo_footer{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+}
+.footer_social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer_social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.footer_social a p{
+    text-decoration: none;
+    color: #A29DB2;
+}
+.footer_content p{
+    color: #A29DB2;
 }
 
 

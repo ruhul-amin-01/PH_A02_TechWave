@@ -102,3 +102,11 @@ nav .menu{
 .host_section h2{
     font-size: 40px;
 }
+
+/*------FOOTER SECTION STYLES------*/
+.logo_footer{
+    font-size: 40px;
+}
+.footer_content{
+    gap: 10px;
+}
